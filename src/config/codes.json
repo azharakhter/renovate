@@ -1,0 +1,10 @@
+{
+    "development": {
+        "en": {
+           "NO_RECORD_FOUND_FOR_SPECIFIED_MRIINTAKE6_ID" : {
+                "message": "No record exists in the system for specified intake6 id",
+                "status": 406
+            }
+        }
+    }
+}

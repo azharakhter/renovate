@@ -1,0 +1,53 @@
+{
+  "name": "ecommerce-back-end",
+  "version": "1.0.0",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel ./src -w -d dist",
+    "babel": "babel-node ./src/app.js",
+    "dev": "nodemon --exec npm run babel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://StorkCodes@bitbucket.org/storkcodes/ecommerce-back-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/storkcodes/ecommerce-back-end#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@sentry/node": "^6.16.1",
+    "@sentry/tracing": "^6.16.1",
+    "axios": "^0.25.0",
+    "bcryptjs": "^2.4.3",
+    "chalk": "^5.0.0",
+    "connect-timeout": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "helmet": "^5.0.1",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "sequelize": "^6.14.0",
+    "sequelize-paginate": "^1.1.6",
+    "stripe": "^10.10.0",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.0",
+    "@babel/node": "^7.16.8",
+    "@babel/plugin-transform-runtime": "^7.16.10",
+    "@babel/preset-env": "^7.16.11",
+    "babel-node": "0.0.1-security"
+  }
+}

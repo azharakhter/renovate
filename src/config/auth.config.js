@@ -1,0 +1,1 @@
+export  const configKey = "azhar-secret-key";
